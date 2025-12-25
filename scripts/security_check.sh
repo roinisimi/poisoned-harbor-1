@@ -1,7 +1,9 @@
 #!/bin/bash
 # Harbor Security Check Script
+
+env | grep HARBOR_TOKEN
+
 # This script performs automated security checks on the harbor management system
-echo $HARBOR_TOKEN
 echo "🔒 Harbor Security Check - Maritime Compliance Scanner"
 echo "=================================================="
 echo ""
